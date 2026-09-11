@@ -1,11 +1,8 @@
-# open.mp launcher
+# BOOTER launcher
 
 Made with Tauri + React-Native ❤️
+Started from open.mp launcher
 
-# Usage:
-
-Use open.mp launcher to enjoy a live, reliable, and populated server list to find any server you want to play on!  
-Just download it from [Releases](https://github.com/openmultiplayer/launcher/releases/latest) page and run it!
 
 # Development
 
@@ -17,7 +14,7 @@ Just download it from [Releases](https://github.com/openmultiplayer/launcher/rel
 - Clone repository:
 
 ```bash
-git clone https://github.com/openmultiplayer/launcher
+git clone https://github.com/ASGOOD1/launcher
 ```
 
 - Prepare for running:
