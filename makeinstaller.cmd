@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\NSIS\makensis.exe" "C:\Users\iuliansima\Desktop\launcher\src-tauri\nsis\installer_manual.nsi"

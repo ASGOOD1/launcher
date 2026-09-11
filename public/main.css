@@ -1,0 +1,211 @@
+#server-list-item-dark {
+  background-color: #30303880;
+  transition: 0.4s;
+}
+
+#server-list-item-dark:hover {
+  background-color: #303038FF;
+  transition: 0.2s;
+}
+
+#server-list-item-light {
+  background-color: #E9ECF280;
+  transition: 0.4s;
+}
+
+#server-list-item-light:hover {
+  background-color: #E9ECF2FF;
+  transition: 0.2s;
+}
+
+#scroll::-webkit-scrollbar-track {
+  background: #ffffff40;
+}
+
+#scroll {
+  scrollbar-color: #ffffff40 #ffffff40;
+  scrollbar-width: thin;
+  overflow: overlay !important;
+}
+
+#scroll::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+#scroll::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#scroll::-webkit-scrollbar-thumb:vertical {
+  background: linear-gradient(to left, #ffffff40 1px, transparent 0%);
+}
+
+#scroll::-webkit-scrollbar-thumb:horizontal {
+  background: linear-gradient(to bottom, #ffffff40 1px, transparent 0%);
+}
+
+#scroll::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(to left, #ffffff40 1px, transparent 0%);
+}
+
+#scroll::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(to bottom, #ffffff40 1px, transparent 0%);
+}
+
+#scroll::-webkit-scrollbar-thumb:hover {
+  background: #ffffff99;
+}
+
+#scroll-light::-webkit-scrollbar-track {
+  background: #1a1a1e4d;
+}
+
+#scroll-light {
+  scrollbar-color: #1a1a1e4d #1a1a1e4d;
+  scrollbar-width: thin;
+  overflow: overlay !important;
+}
+
+#scroll-light::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+
+#scroll-light::-webkit-scrollbar-track-piece {
+  background: transparent;
+}
+
+#scroll-light::-webkit-scrollbar-thumb:vertical {
+  background: linear-gradient(to left, #1a1a1e4d 1px, transparent 0%);
+}
+
+#scroll-light::-webkit-scrollbar-thumb:horizontal {
+  background: linear-gradient(to bottom, #1a1a1e4d 1px, transparent 0%);
+}
+
+#scroll-light::-webkit-scrollbar-track:vertical {
+  background: linear-gradient(to left, #1a1a1e4d 1px, transparent 0%);
+}
+
+#scroll-light::-webkit-scrollbar-track:horizontal {
+  background: linear-gradient(to bottom, #1a1a1e4d 1px, transparent 0%);
+}
+
+#scroll-light::-webkit-scrollbar-thumb:hover {
+  background: #1a1a1e99;
+}
+
+.titlebar-button:hover {
+  background: #897af1;
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("fonts/Proxima Nova Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Proxima Nova Semibold";
+  src: url("fonts/Proxima Nova Semibold.woff2") format("woff2");
+}
+
+.loader-dark {
+  position: relative;
+  border-radius: 1000px;
+  background: linear-gradient(#f07e6e, #84cdfa, #5ad1cd);
+  animation: animate 1.2s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-dark span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1000px;
+  background: linear-gradient(#8477b7, #1f1f23);
+}
+
+.loader-dark span:nth-child(1) {
+  filter: blur(5px);
+}
+
+.loader-dark span:nth-child(2) {
+  filter: blur(10px);
+}
+
+.loader-dark span:nth-child(3) {
+  filter: blur(25px);
+}
+
+.loader-dark span:nth-child(4) {
+  filter: blur(50px);
+}
+
+.loader-dark:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 1000px;
+}
+
+.loader-light {
+  position: relative;
+  border-radius: 1000px;
+  background: linear-gradient(#8477b7, #ffffff);
+  animation: animate 1.2s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-light span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 1000px;
+  background: linear-gradient(#8477b7, #ffffff);
+}
+
+.loader-light span:nth-child(1) {
+  filter: blur(5px);
+}
+
+.loader-light span:nth-child(2) {
+  filter: blur(10px);
+}
+
+.loader-light span:nth-child(3) {
+  filter: blur(25px);
+}
+
+.loader-light span:nth-child(4) {
+  filter: blur(50px);
+}
+
+.loader-light:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 1000px;
+}
